@@ -4,6 +4,9 @@
   "description": "bitcoin calculator",
   "main": "index.js",
   "author": "Max Hubskyy",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "express": "^4.13.4",
     "node-fetch": "~2.2.0",
