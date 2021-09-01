@@ -1,0 +1,12 @@
+{
+  "name": "bc-calculator",
+  "version": "1.0.0",
+  "description": "bitcoin calculator",
+  "main": "index.js",
+  "author": "Max Hubskyy",
+  "dependencies": {
+    "express": "^4.13.4",
+    "node-fetch": "~2.2.0",
+    "forever-monitor": "~1.2.3"
+  }
+}
