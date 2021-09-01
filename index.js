@@ -10,7 +10,6 @@ var app = express()
 //app.use('/bcalc', express.static('public'))
 app.use(express.static('public'))
 
-
 app.get('/getbtcchangerate', function (req, res) {
 
 	var reqUrl = 'https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC&tsyms=' + req.query.currency;
