@@ -1,7 +1,7 @@
 var express = require('express')
 var fetch = require('node-fetch')
 var path = require('path')
-var port = 3000//process.env.PORT || 8080
+var port = process.env.PORT || 3000
 
 var https = require('https');
 var fs = require('fs');
