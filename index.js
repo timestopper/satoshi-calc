@@ -117,7 +117,7 @@ var sslOptions = { 'key' : fs.readFileSync( path.join(__dirname, 'SSL_prod/serve
                   , 'passphrase': 'bcalc' };
 // *** end SSL part ***
 
-https.createServer(sslOptions, app).listen(port);
-
-//app.listen(port);
+//https.createServer(sslOptions, app).listen(port);
+// ! NOTE: switched to HTTP, not HTTPS
+app.listen(port);
 console.log("server started on port " + port);
